@@ -1,0 +1,19 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.error {
+    color: red;
+}
+
+.logo-img {
+    width: 100px; /* Sesuaikan lebar gambar sesuai kebutuhan Anda */
+    display: block;
+    margin: 0 auto 10px; /* Atur margin bawah sesuai kebutuhan Anda */
+}

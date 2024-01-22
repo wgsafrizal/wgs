@@ -1,0 +1,63 @@
+/* Tambahkan di sini */
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsoc {
+    flex: 1;
+    margin-right: 10px; /* Jarak antara detailsoc dan detailcustomeroc */
+}
+
+.detailcustomeroc {
+    flex: 1;
+    margin-left: 10px; /* Jarak antara detailsoc dan detailcustomeroc */
+    justify-content: flex-end; /* Memindahkan detailcustomeroc ke kanan */
+}
+
+.submit-button {
+    display: block;
+    margin: 0 auto; /* Untuk meletakkan tombol di tengah */
+}
+
+.infoButton {
+    margin-right: 12px;
+    /* Atur nilai margin sesuai keinginan Anda */
+}
+
+/* Styling modal dialog and content to follow the width of the table */
+.modal-dialog {
+    max-width: 80%; /* Sesuaikan dengan lebar yang diinginkan */
+}
+
+.modal-content {
+    width: 100%;
+    height: auto; /* Menyesuaikan tinggi secara otomatis */
+}
+
+/* Styling modal header */
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px; /* Mengurangi padding untuk memperkecil modul */
+    text-align: center; /* Menengahkan teks dalam header */
+}
+
+/* Styling modal body */
+.modal-body {
+    padding: 10px; /* Mengurangi padding untuk memperkecil modul */
+}
+
+/* Styling rincianharga details */
+.rincianharga p {
+    margin-bottom: 5px;
+    text-align: right; /* Menyusun teks dalam rincian harga ke kanan */
+}
+
+/* Optional: Styling close button */
+.close {
+    color: white;
+}
+
+
